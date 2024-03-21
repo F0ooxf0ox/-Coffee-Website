@@ -16,4 +16,4 @@ https://user-images.githubusercontent.com/118926997/208767883-5f6342e9-bf9a-4eb7
 
 
 Website preview below:
-![Revo Coffee website](https://user-images.githubusercontent.com/118926997/208767959-e4c834ad-f45b-4e49-9014-631a2081a60f.png)
+![Coffee website](https://user-images.githubusercontent.com/118926997/208767959-e4c834ad-f45b-4e49-9014-631a2081a60f.png)

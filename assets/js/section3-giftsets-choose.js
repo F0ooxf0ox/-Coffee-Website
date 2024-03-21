@@ -1,36 +1,36 @@
 var giftsetsChoiceButtons = document.querySelectorAll(
   ".section3-giftsets-list-item-button"
 );
-var giftsetsChoiceButtonsJq = $(".section3-giftsets-list-item-button");
+var giftsetsChoiceButtonsJq = $(".section3--list-item-button");
 var giftsetsActiveChoice = 0;
 var buttonsDisabled = false;
 var giftsetChoicesInfo = {
   0: {
-    price: 285,
-    icon: "assets/img/section3/giftset1Img.png",
+    price: 175,
+    icon: "assets/img/section2/box.jpg",
     //   когда применять, надо к имени добавлять giftset " "
-    name: "Vietnamese Filtered Coffee",
+    name: "بوكس الاكثر مبيعا",
     description:
-      "The perfect gift for coffee lovers. The coffee beans are carefully selected by Revo, roasted and ground according to technology and know-how derived from renowned artisans and with the love and passion of coffee makers... creating pure cups of coffee exclusively for you.",
-    nutType: "Fine Robusta Blend",
+      "ثلاث محاصيل الاكثر مبيعا ,شيري -شيشلي-كاذي",
+    nutType: "   ",
     height: "700 - 800",
   },
   1: {
-    price: 319,
-    icon: "assets/img/section3/giftset2Img.png",
-    name: "Lovely Day",
+    price: 119,
+    icon: "assets/img/section2/box.jpg",
+    name: " بوكس التوفير",
     description:
-      "The perfect gift for lovers. The coffee beans are carefully selected by Revo, roasted and ground according to technology and know-how derived from renowned artisans and with the love and passion of coffee makers... creating pure cups of coffee exclusively for you.",
-    nutType: "Cacao beans",
+      "                                     وفر اكثر مع بوكس التوفير,فيرونا- سيدراما-حمصه سعوديه         ",
+    nutType: "",
     height: "900 - 1000",
   },
   2: {
-    price: 190,
-    icon: "assets/img/section3/giftset3Img.png",
-    name: "Natural Culture Drink",
+    price: 220,
+    icon: "assets/img/section2/box.jpg",
+    name: "بوكس الفاخر",
     description:
-      "The perfect gift for coffee lovers. The beans are carefully selected by Revo, roasted and ground according to technology and know-how derived from renowned artisans and with the love and passion of coffee makers... creating pure cups of coffee exclusively for you.",
-    nutType: "Natural Coffee Beans",
+      "بوكس يحتوى على ثلاث محاصيل فاخره -شيري -فيكتوريا-شيرى-لتين-",
+    nutType: "",
     height: "300 - 400",
   },
 };
@@ -41,7 +41,7 @@ var updateCurrentChoice = function () {
 
     document.querySelector(
       ".section3-giftsets-info-price"
-    ).textContent = `${giftsetChoicesInfo[giftsetsActiveChoice].price}.000$`;
+    ).textContent = `${giftsetChoicesInfo[giftsetsActiveChoice].price}.00 RS`;
     document
       .querySelector(".section3-giftsets-info-price")
       .classList.add("section3-infos-animation-top");
@@ -55,7 +55,7 @@ var updateCurrentChoice = function () {
 
     document.querySelector(
       ".section3-giftsets-info-name"
-    ).textContent = `Giftset "${giftsetChoicesInfo[giftsetsActiveChoice].name}"`;
+    ).textContent = `${giftsetChoicesInfo[giftsetsActiveChoice].name}`;
     document
       .querySelector(".section3-giftsets-info-name")
       .classList.add("section3-infos-animation-right");
